@@ -13,10 +13,12 @@ body {
 
 header {
     height: 75px;
+    width: 480px;
 }
 
 aside {
     height: 150px;
+    width: 480px;
 }
 
 div {
@@ -35,4 +37,29 @@ img {
     float: left;
 }
 
+footer {
+    height: 80px;
+    width: 480px;
+}
 
+@media only screen and (min-width: 768px) {
+    html {
+        background: orange;
+    }
+
+    body {
+        width: 960px;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    aside {
+        height: 600px;
+        float: left;
+    }
+
+
+
+}

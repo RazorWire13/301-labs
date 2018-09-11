@@ -1,3 +1,13 @@
+img.large {
+    height: 150px;
+    width: 480px;
+}
+
+img.small {
+    height: 250px;
+    width: 240px;
+}
+
 p.head-p {
     top: 12%;
     left: 46%;
@@ -7,6 +17,13 @@ p.foot-p {
     top: 20%;
     left: 48.5%;
 }
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
 
 
 

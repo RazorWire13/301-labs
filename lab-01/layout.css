@@ -8,16 +8,23 @@
     height: 250px;
     width: 240px;
     background: url(https://via.placeholder.com/240x250);
-
 }
 
-p .header-p {
-    top: 12%;
-    left: 46%;
+.header-p {
+    position: absolute;
+    top: 13%;
+    left: 45%;
 }
 
-p .foot-p {
-    top: 20%;
+.aside-p {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+
+.footer-p {
+    position: absolute;
+    top: 25%;
     left: 48.5%;
 }
 
@@ -27,7 +34,6 @@ p .foot-p {
         width: 380px;
         float: left;
         background-image: url(https://via.placeholder.com/380x200);
-
     }
 
     .small {
@@ -35,6 +41,24 @@ p .foot-p {
         width: 190px;
         float: left;
         background-image: url(https://via.placeholder.com/190x250);
+    }
+
+    .header-p {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+    }
+    
+    .aside-p {
+        position: absolute;
+        top: 45%;
+        left: 40%;
+    }
+    
+    .footer-p {
+        position: absolute;
+        top: 35%;
+        left: 48.5%;
     }
 
 }

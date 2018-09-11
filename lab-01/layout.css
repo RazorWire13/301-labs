@@ -1,12 +1,45 @@
-p.head-p {
+.large {
+    height: 150px;
+    width: 480px;
+    background: url(https://via.placeholder.com/480x125);
+}
+
+.small {
+    height: 250px;
+    width: 240px;
+    background: url(https://via.placeholder.com/240x250);
+
+}
+
+p .header-p {
     top: 12%;
     left: 46%;
 }
 
-p.foot-p {
+p .foot-p {
     top: 20%;
     left: 48.5%;
 }
+
+@media only screen and (min-width: 768px) {
+    .large {
+        height: 200px;
+        width: 380px;
+        float: left;
+        background-image: url(https://via.placeholder.com/380x200);
+
+    }
+
+    .small {
+        height: 250px;
+        width: 190px;
+        float: left;
+        background-image: url(https://via.placeholder.com/190x250);
+    }
+
+}
+
+
 
 
 

@@ -13,10 +13,16 @@ body {
 
 header {
     height: 75px;
+    width: 480px;
+    background-image: url(https://via.placeholder.com/480x75);
+
 }
 
 aside {
     height: 150px;
+    width: 480px;
+    background-image: url(https://via.placeholder.com/480x150);
+
 }
 
 div {
@@ -31,8 +37,41 @@ p {
     font-size: 36pt;
 }
 
-img {
-    float: left;
+footer {
+    height: 80px;
+    width: 480px;
+    background-image: url(https://via.placeholder.com/480x80);
+
 }
 
+@media only screen and (min-width: 768px) {
+    html {
+        background: orange;
+    }
 
+    body {
+        width: 960px;
+    }
+
+    header {
+        height: 100px;
+        width: 960px;
+        background-image: url(https://via.placeholder.com/960x100);
+
+    }
+
+    aside {
+        height: 600px;
+        width: 200px;
+        float: left;
+        background-image: url(https://via.placeholder.com/200x600);
+
+    }
+
+    footer {
+        height: 150px;
+        width: 760px;
+        float: left;
+        background-image: url(https://via.placeholder.com/760x150);
+    }
+}

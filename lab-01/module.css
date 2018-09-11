@@ -1,0 +1,9 @@
+div .large img {
+    position: relative;
+    float: left;
+}
+
+div .small img {
+    position: relative;
+    float: left;
+}

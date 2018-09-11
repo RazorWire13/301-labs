@@ -1,0 +1,38 @@
+html {
+    background: green;
+}
+
+* {
+    outline: black solid;
+}
+
+body {
+    width: 480px;
+    margin: auto;
+}
+
+header {
+    height: 75px;
+}
+
+aside {
+    height: 150px;
+}
+
+div {
+    position: relative;
+    float: left;
+}
+
+p {
+    position: absolute;
+    top: 37%;
+    left: 46%;
+    font-size: 36pt;
+}
+
+img {
+    float: left;
+}
+
+

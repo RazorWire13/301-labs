@@ -7,22 +7,9 @@ html {
 }
 
 body {
+    position: relative;
     width: 480px;
     margin: auto;
-}
-
-header {
-    height: 75px;
-    width: 480px;
-    background-image: url(https://via.placeholder.com/480x75);
-
-}
-
-aside {
-    height: 150px;
-    width: 480px;
-    background-image: url(https://via.placeholder.com/480x150);
-
 }
 
 div {
@@ -30,18 +17,33 @@ div {
     float: left;
 }
 
-p {
-    position: absolute;
-    top: 37%;
-    left: 46%;
-    font-size: 36pt;
+header {
+    position: relative;
+    height: 75px;
+    width: 480px;
+    background-image: url(https://via.placeholder.com/480x75);
+}
+
+aside {
+    position: relative;
+    height: 150px;
+    width: 480px;
+    background-image: url(https://via.placeholder.com/480x150);
 }
 
 footer {
+    position: relative;
+    float: left;
     height: 80px;
     width: 480px;
     background-image: url(https://via.placeholder.com/480x80);
+}
 
+p {
+    position: absolute;
+    top: 37%;
+    left: 45%;
+    font-size: 36pt;
 }
 
 @media only screen and (min-width: 768px) {
@@ -71,7 +73,6 @@ footer {
     footer {
         height: 150px;
         width: 760px;
-        float: left;
         background-image: url(https://via.placeholder.com/760x150);
     }
 }

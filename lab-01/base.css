@@ -2,9 +2,9 @@ html {
     background: green;
 }
 
-* {
+/* * {
     outline: black solid;
-}
+} */
 
 body {
     position: relative;
@@ -21,14 +21,14 @@ header {
     position: relative;
     height: 75px;
     width: 480px;
-    background-image: url(https://via.placeholder.com/480x75);
+    background: pink;
 }
 
 aside {
     position: relative;
     height: 150px;
     width: 480px;
-    background-image: url(https://via.placeholder.com/480x150);
+    background: coral;
 }
 
 footer {
@@ -36,7 +36,7 @@ footer {
     float: left;
     height: 80px;
     width: 480px;
-    background-image: url(https://via.placeholder.com/480x80);
+    background: purple;
 }
 
 p {
@@ -58,7 +58,7 @@ p {
     header {
         height: 100px;
         width: 960px;
-        background-image: url(https://via.placeholder.com/960x100);
+        background: pink;
 
     }
 
@@ -66,13 +66,13 @@ p {
         height: 600px;
         width: 200px;
         float: left;
-        background-image: url(https://via.placeholder.com/200x600);
+        background: coral;
 
     }
 
     footer {
         height: 150px;
         width: 760px;
-        background-image: url(https://via.placeholder.com/760x150);
+        background: purple;
     }
 }

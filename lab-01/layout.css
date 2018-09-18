@@ -1,13 +1,35 @@
 .large {
     height: 150px;
     width: 480px;
-    background: url(https://via.placeholder.com/480x125);
+}
+
+div#c {
+    background: olivedrab;
+}
+
+div#d {
+    background: olive;
 }
 
 .small {
     height: 250px;
     width: 240px;
-    background: url(https://via.placeholder.com/240x250);
+}
+
+div#e {
+    background: cyan;
+}
+
+div#f {
+    background: skyblue;
+}
+
+div#g {
+    background: steelblue;
+}
+
+div#h {
+    background: blue;
 }
 
 .header-p {
@@ -33,14 +55,12 @@
         height: 200px;
         width: 380px;
         float: left;
-        background-image: url(https://via.placeholder.com/380x200);
     }
 
     .small {
         height: 250px;
         width: 190px;
         float: left;
-        background-image: url(https://via.placeholder.com/190x250);
     }
 
     .header-p {

@@ -2,9 +2,9 @@ html {
     background: green;
 }
 
-* {
+/* * {
     outline: black solid;
-}
+} */
 
 body {
     width: 480px;
@@ -46,7 +46,7 @@ body {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 4;
-    background: orange;
+    background: orangered;
 }
   
 #e {
@@ -60,28 +60,28 @@ body {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row: 5;
-    background: cyan;
+    background: steelblue;
 }
 
 #g {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row: 6;
-    background: cyan;
+    background: skyblue;
 }
 
 #h {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row: 6;
-    background: cyan;
+    background: slateblue;
 }
 
 #i {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 7;
-    background: red;
+    background: purple;
 }
 
 p {
@@ -115,7 +115,6 @@ p {
         grid-column-start: 1;
         grid-column-end: 6;
         grid-row: 1;
-        background: greenyellow;
     
     }
     
@@ -124,56 +123,48 @@ p {
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 5;
-        background: yellow;
     }
     
     #c {
         grid-column-start: 2;
         grid-column-end: 4;
         grid-row: 2;
-        background: orange;
     }
     
     #d {
         grid-column-start: 4;
         grid-column-end: 6;
         grid-row: 2;
-        background: orange;
     }
       
     #e {
         grid-column-start: 2;
         grid-column-end: 3;
         grid-row: 3;
-        background: cyan;
     }
     
     #f {
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row: 3;
-        background: cyan;
     }
     
     #g {
         grid-column-start: 4;
         grid-column-end: 5;
         grid-row: 3;
-        background: cyan;
     }
     
     #h {
         grid-column-start: 5;
         grid-column-end: 6;
         grid-row: 3;
-        background: cyan;
     }
     
     #i {
         grid-column-start: 2;
         grid-column-end: 6;
         grid-row: 4;
-        background: red;
     }
     
     p {
@@ -181,8 +172,8 @@ p {
         position: relative;
         width: 30px;
         font-size: 32pt;
-        top: 35%;
-        left: 46%;
+        top: 39%;
+        left: 45%;
     }
 
 
